@@ -1,0 +1,18 @@
+{
+  "gate": {
+    "enabled": true,
+    "mode": "initial",
+    "failureMode": "fail-open",
+    "confidencePolicy": "threshold",
+    "strongNoAction": "ask-user",
+    "strongNoMinConfidence": 0.9,
+    "strongNoMinCount": 1,
+    "maxStalledIterations": 2,
+    "stagnationSimilarityThreshold": 0.98,
+    "earlyExit": true,
+    "subprocessParseRetries": 1
+  },
+  "planner": {
+    "thinking": "medium"
+  }
+}

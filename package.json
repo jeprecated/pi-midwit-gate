@@ -1,0 +1,50 @@
+{
+  "name": "pi-midwit-gate",
+  "version": "0.1.0",
+  "description": "Pi extension that gates prompts through a planner and reviewer quorum before the main agent runs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Jordan Munch O'Hare",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ohare93/pi-midwit-gate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ohare93/pi-midwit-gate/issues"
+  },
+  "homepage": "https://github.com/ohare93/pi-midwit-gate#readme",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "planning",
+    "review",
+    "gate",
+    "midwit"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.74.0",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  }
+}
