@@ -378,6 +378,7 @@ Use `all` only when each user prompt is expected to be self-contained.
 ```sh
 npm install
 npm run typecheck
+npm test
 pi -e ./
 ```
 
