@@ -7,12 +7,12 @@
   "author": "Jordan Munch O'Hare",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ohare93/pi-midwit-gate.git"
+    "url": "git+ssh://git@github.com/jeprecated/pi-midwit-gate.git"
   },
   "bugs": {
-    "url": "https://github.com/ohare93/pi-midwit-gate/issues"
+    "url": "https://github.com/jeprecated/pi-midwit-gate/issues"
   },
-  "homepage": "https://github.com/ohare93/pi-midwit-gate#readme",
+  "homepage": "https://github.com/jeprecated/pi-midwit-gate#readme",
   "keywords": [
     "pi-package",
     "pi",

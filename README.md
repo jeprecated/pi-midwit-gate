@@ -7,7 +7,7 @@ A [Pi](https://pi.dev/) package and extension that blocks the main agent until t
 From git:
 
 ```sh
-pi install git:github.com:ohare93/pi-midwit-gate
+pi install git:github.com:jeprecated/pi-midwit-gate
 ```
 
 For local development:
